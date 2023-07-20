@@ -20,7 +20,7 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={
+      <Route path="ChatApp" element={
         <ProtectedRoute>
           <Home />
         </ProtectedRoute>
